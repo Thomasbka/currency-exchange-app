@@ -1,16 +1,16 @@
 import React from 'react';
-import './App.css';
 import Navbar from './Navbar';
 import Converter from  './Converter';
 import Currencies from './Currencies';
 import Footer from './Footer';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Navbar />
-      <div className="headline text-uppercase">
-        <h2>Currency Converter</h2>
+      <div className="text-uppercase text-center">
+        <h2 className="headline">Currency Converter</h2>
       </div>
       <Converter />
       <Footer />
