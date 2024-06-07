@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -30,6 +31,12 @@ class Navbar extends Component {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li className="nav-items">
+                  <Link className="nav-link" aria-current="page" to="/">Home</Link>
+                </li>
+                <li classNAme="nav-items">
+                  <Link className="nav-link" aria-current="page" to="/rates">Table of Rates</Link>
+                </li>
                 <li className="nav-item">
                   <a className="nav-link" aria-current="page" href="#" onClick={this.handleHowToClick}>How To</a>
                 </li>

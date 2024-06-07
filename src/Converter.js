@@ -56,6 +56,9 @@ class Converter extends Component {
 
     return (
       <div className="converter">
+        <div className="text-uppercase text-center">
+          <h2 className="headline">Currency Converter</h2>
+        </div>
         <div className="container">
           <div className="form-row">
             <input
