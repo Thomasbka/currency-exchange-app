@@ -1,0 +1,27 @@
+/* Navbar */
+.custom-offcanvas {
+  width: 300px;
+  max-width: 50%;
+  height: auto;
+  max-height: 100%;
+}
+
+.offcanvas-header {
+  background-color: #f8f9fa;
+}
+
+.offcanvas-body {
+  padding: 10px;
+}
+
+.offcanvas-body {
+  overflow-y: auto;
+}
+
+.offcanvas-title {
+  font-size: 1.5rem;
+}
+
+.nav-item .nav-link {
+  font-size: 1.2rem;
+}

@@ -9,7 +9,7 @@ body, html {
   font-size: 2rem;
   color: #333;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -33,7 +33,6 @@ body, html {
   flex-direction: column;
   align-items: center;
 }
-
 
 .form-row {
   display: flex;
@@ -75,6 +74,21 @@ select {
   background-color: rgba(18, 101, 18, 0.809);
 }
 
+.get-graph-button {
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: rgba(15, 85, 15, 0.809);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px; 
+  width: 100%; 
+}
+
+.get-graph-button:hover {
+  background-color: rgba(18, 101, 18, 0.809);
+}
+
 .switch-button {
   border-radius: 15px;
   border: none;
@@ -90,6 +104,11 @@ select {
   font-size: 1.2em;
 }
 
-.form-control, .form-select {
-  margin: 5px;
+.chart-container {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.277);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
